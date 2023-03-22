@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins&display=swap');
+body{
+    display: flex;
+    background-image: url(./images/bg-mobile.svg);
+    background-repeat:no-repeat;
+    flex-direction: column;
+    font-style: normal;
+    background-color: #684bb1;
+    background-size:100%;
+}
+header{
+    padding: 20px;
+}
+#first-image{
+    width: 296px;
+    height: 209px;
+    margin: 0 auto;
+    margin: 40px auto;
+}
+#logo{
+    width:120px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+h1{font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+p{
+    font-family: 'Open Sans';
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.text{
+    margin: 35px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+button{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    font-family: 'Poppins';
+    font-size: 12px;
+    color: #684BB1;
+}
+.registration{
+    display: flex;
+    justify-content: center;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding:15px;
+}
+
+.desktop{
+    display: none;
+}
+#head{
+    display: none;
+}
+@media screen and ( min-width: 1440px ) {
+    body{
+        background-image: url(./images/bg-desktop.svg);
+        background-size: auto;
+    }
+.container{
+    flex-direction: row;
+}
+#first-image{
+    width: 696px;
+    height: 493px;
+}
+.desktop{
+    display: flex;
+}
+header{
+    display: none;
+}
+.columne{
+    display: flex;
+    flex-direction: column;
+    margin: 64px 0px 0px 80px;
+}
+footer{
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+}
+#head{
+    width: 200px;
+    display: flex;
+}
+.text{
+    align-items: flex-start;
+    justify-content: center;
+    width: 520px;
+    gap: 24px;
+    margin-left: 59px;
+}
+h1{
+    font-size: 40px;
+    line-height: 60px;
+    text-align: left;
+}
+p{
+    font-size: 18px;
+    line-height: 27px;
+    text-align: left;
+
+}
+button{
+    height: 56px;
+    border-radius: 28px;
+    font-size: 18px;
+    line-height: 27px;
+    cursor: pointer;
+}
+button:hover{
+    background: #E880E8;
+}
+#twit{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+#twit:hover{
+    background-color: #FF52C1;
+    border-radius: 15px;
+}
+#face{
+    width: 40px;
+    height: 40px;
+}
+#insta{
+    width: 40px;
+    height: 40px;
+}
+.social{
+    padding: 15px 80px;
+}
+
+}
+
+
